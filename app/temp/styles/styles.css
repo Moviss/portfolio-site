@@ -499,7 +499,7 @@ a {
 
 .large-hero__title {
       font-weight: 300;
-      color: #2f5572;
+      color: #fff;
       margin: 0;
       font-size: 2.4rem;
 
@@ -515,7 +515,7 @@ a {
 
 .large-hero__subtitle {
       font-weight: 300;
-      color: #2f5572;
+      color: #fff;
       font-size: 1.5rem;
       margin: 0;
     }
@@ -665,13 +665,13 @@ a {
     color: #fff;
   }
 
-.page-section--testimonials {
+.page-section--my-projects {
     background-color: #e0e6ef;
   }
 
 @media (min-width: 1010px) {
-      .page-section--testimonials.lazyloaded {
-        background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
+      .page-section--my-projects.lazyloaded {
+        background: url('../../assets/images/projects-bg.jpg') top center no-repeat;
         background-size: cover;
       }
   }
@@ -877,13 +877,25 @@ a {
 	}
   }
 
+.generic-content-container li {
+		font-weight: 300;
+		margin: 0 0 .6rem 0;
+	}
+
+@media (min-width: 530px) {
+
+.generic-content-container li {
+			font-size: 1.125rem
+	}
+  }
+
 .generic-content-container p a {
 		font-weight: 700;
 	}
 
 .section-title {
 	font-size: 2.55rem;
-	font-weight: 300;
+	font-weight: 200;
 	text-align: center;
 
 }
@@ -919,6 +931,14 @@ a {
 	}
   }
 
+.section-title--black {
+		color: #000000;
+	}
+
+.section-title--white {
+		color: #ffffff;
+	}
+
 .section-title--blue {
 		color: #2f5572;
 	}
@@ -931,6 +951,9 @@ a {
 .feature-item {
 	position: relative;
 	padding-bottom: 2.5rem;
+	margin-bottom: 5rem;
+	height: 90px;
+	width: auto;
 
 
 }
@@ -953,7 +976,7 @@ a {
 
 .feature-item__icon {
 			position: absolute;
-			left: 0
+			left: 33.33%
 	}
   }
 
@@ -1159,6 +1182,7 @@ Instead edit gulp/templates/sprite */
 		position: absolute;
 		top: 0;
 		left: 50%;
+		line-height: 0.5;
 		-webkit-transform: translateX(-50%) scale(.8);
 		        transform: translateX(-50%) scale(.8);
 		-webkit-transition: -webkit-transform .3s ease-out;
@@ -1168,7 +1192,7 @@ Instead edit gulp/templates/sprite */
 		-webkit-transform-origin: 50% 0;
 		        transform-origin: 50% 0;
 		background-color: #2f5572;
-		padding: 25px 36px;
+		padding: 0 20px 6px 20px;
 	}
 
 @media (min-width: 800px) {
@@ -1180,9 +1204,36 @@ Instead edit gulp/templates/sprite */
 	}
 
 			.site-header--dark .site-header__logo {
-				-webkit-transform: scale(.55);
-				        transform: scale(.55);
+				-webkit-transform: scale(.75);
+				        transform: scale(.75);
 			}
+  }
+
+.site-header p {
+		color: #fff;
+		text-align: center;
+		letter-spacing: 0.8px;
+	}
+
+.site-header__logo-upper {
+		font-weight: 300;
+		font-size: 1rem;
+	}
+
+.site-header__logo-lower {
+		font-weight: 100;
+		font-size: 1rem;
+	}
+
+@media (min-width: 530px) {
+		.site-header__logo-upper {
+			font-weight: 300;
+			font-size: 1.3rem;
+		}
+	
+		.site-header__logo-lower {
+			font-weight: 100;
+		}
   }
 
 .site-header__logo__graphic {

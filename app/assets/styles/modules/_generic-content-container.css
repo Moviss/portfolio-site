@@ -10,6 +10,15 @@
 		}
 	}
 
+	li {
+		font-weight: 300;
+		margin: 0 0 .6rem 0;
+
+		@mixin atSmall {
+			font-size: 1.125rem;
+		}
+	}
+
 	p a {
 		font-weight: 700;
 	}
