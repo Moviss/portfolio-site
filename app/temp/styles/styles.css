@@ -736,6 +736,17 @@ a {
     display: table;
   }
 
+.row__center {
+    padding-left: 10%;
+  }
+
+@media (min-width: 800px) {
+
+.row__center {
+      padding-left: 15%
+  }
+  }
+
 .row--t-padding {
     padding-top: 80px;
   }
@@ -948,6 +959,11 @@ a {
 		margin-top: 0;
 	}
 
+.section-title--large-margin {
+		margin-bottom: 1.3rem;
+		margin-top: 2rem;
+	}
+
 .feature-item {
 	position: relative;
 	padding-bottom: 2.5rem;
@@ -1047,79 +1063,13 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-			background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
+			background-image: url('../../assets/images/sprites/sprite-deddba3a.svg');
 		}
-
-.icon--clear-view-escapes {
-		width: 144.4px;
-		height: 61.53px;
-		background-position: 0 0;
-	}
-
-.icon--comment {
-		width: 66px;
-		height: 66px;
-		background-position: 99.71014492753623% 0;
-	}
-
-.icon--facebook {
-		width: 23.23px;
-		height: 44.01px;
-		background-position: 26.424310365536293% 45.92133741323979%;
-	}
-
-.icon--fire {
-		width: 58px;
-		height: 66px;
-		background-position: 0 99.58035714285714%;
-	}
-
-.icon--globe {
-		width: 66px;
-		height: 66px;
-		background-position: 28.019323671497585% 99.58035714285714%;
-	}
-
-.icon--instagram {
-		width: 44.01px;
-		height: 44.01px;
-		background-position: 63.059522249879905% 49.25740726919919%;
-	}
-
-.icon--mail {
-		width: 66px;
-		height: 50px;
-		background-position: 0 48.0703125%;
-	}
-
-.icon--rain {
-		width: 66px;
-		height: 66px;
-		background-position: 99.71014492753623% 58.92857142857143%;
-	}
 
 .icon--star {
 		width: 66px;
 		height: 66px;
-		background-position: 59.90338164251208% 99.58035714285714%;
-	}
-
-.icon--twitter {
-		width: 53.78px;
-		height: 44.06px;
-		background-position: 94.15199343125627% 98.55159026429745%;
-	}
-
-.icon--wifi {
-		width: 62px;
-		height: 66px;
-		background-position: 68.43601895734596% 0;
-	}
-
-.icon--youtube {
-		width: 36.75px;
-		height: 44px;
-		background-position: 37.76931216931217% 45.917910447761194%;
+		background-position: 0 0;
 	}
 
 .site-footer {
@@ -1455,6 +1405,26 @@ Instead edit gulp/templates/sprite */
     transition: all .3s ease-out;
 }
 
+.modal__title {
+        font-size: 2rem;
+	    font-weight: 200;
+        text-align: center;
+    }
+
+@media (min-width: 530px) {
+
+.modal__title {
+            font-size: 2.45rem
+    }
+  }
+
+@media (min-width: 800px) {
+
+.modal__title {
+            font-size: 3.75rem
+    }
+  }
+
 .modal--is-visible {
         opacity: 1;
         visibility: visible;
@@ -1476,6 +1446,22 @@ Instead edit gulp/templates/sprite */
         font-weight: 300;
         line-height: 1.65;
     }
+
+.modal__text {
+        padding-left: 10%;
+        margin-top: 15px;
+        padding-right: 10%;
+        font-size: .9rem;
+    }
+
+@media (min-width: 800px) {
+
+.modal__text {
+            padding-left: 10%;
+            margin-top: 15px;
+            padding-right: 10%
+    }
+  }
 
 .modal__close {
         position: absolute;
@@ -1499,11 +1485,8 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-        background-color: #d59541;
         display: inline-block;
-        margin: 0 5px 5px 5px;
-        width: 33%;
-        height: 72px;
+        margin: 20px 20px 0px 20px;
         position: relative;
     }
 
@@ -1511,7 +1494,7 @@ Instead edit gulp/templates/sprite */
 
 .social-icons__icon {
             width: 72px;
-            margin: 0 5px
+            margin: 20px 15px
     }
   }
 
@@ -1523,3 +1506,42 @@ Instead edit gulp/templates/sprite */
             -webkit-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
         }
+
+.formField {
+    font: inherit;
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    margin: 3px 0 10px 0; 
+    padding: 3px 0;
+}
+
+textarea.formField {
+    width: 300px; 
+    height: 100px;
+}
+
+#sendBtn {
+    cursor: pointer;
+    background: #ccc; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), to(#eee)); 
+    background: linear-gradient(#ddd 0, #eee 100%); 
+    border: 1px solid #ccc; line-height: 32px; 
+    font-size: 14px;
+    padding: 0 25px; 
+    border-radius: 3px;
+}
+
+#send_form_status {
+    border: 1px dashed #ccc;
+    display: none; 
+    padding: 0 10px; 
+    margin: 10px 0;
+}
+
+.status_ok {
+    color: #060;
+}
+
+.status_err {
+    color: #F00;
+}

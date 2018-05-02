@@ -2,16 +2,13 @@
     text-align: center;
 
     &__icon {
-        background-color: $mainOrange;
         display: inline-block;
-        margin: 0 5px 5px 5px;
-        width: 33%;
-        height: 72px;
+        margin: 20px 20px 0px 20px;
         position: relative;
 
         @mixin atSmall {
             width: 72px;
-            margin: 0 5px;
+            margin: 20px 15px;
         }
 
         .icon {

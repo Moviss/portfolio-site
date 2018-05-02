@@ -2,6 +2,14 @@
 
   @mixin clearfix;
   
+  &__center {
+    padding-left: 10%;
+
+    @mixin atMedium {
+      padding-left: 15%;
+    }
+  }
+
   &--t-padding {
     padding-top: 80px;
   }

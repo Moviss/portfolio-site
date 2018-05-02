@@ -11,6 +11,20 @@
     transform: scale(1.2);
     transition: all .3s ease-out;
 
+    &__title {
+        font-size: 2rem;
+	    font-weight: 200;
+        text-align: center;
+        
+        @mixin atSmall {
+            font-size: 2.45rem;
+        }
+
+        @mixin atMedium {
+            font-size: 3.75rem;
+        }
+    }
+
     &--is-visible {
         opacity: 1;
         visibility: visible;
@@ -29,6 +43,19 @@
         font-size: 1.3rem;
         font-weight: 300;
         line-height: 1.65;
+    }
+
+    &__text {
+        padding-left: 10%;
+        margin-top: 15px;
+        padding-right: 10%;
+        font-size: .9rem;
+
+        @mixin atMedium {
+            padding-left: 10%;
+            margin-top: 15px;
+            padding-right: 10%;
+        }
     }
 
     &__close {

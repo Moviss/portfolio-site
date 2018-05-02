@@ -11738,6 +11738,7 @@ var Modal = function () {
         this.modal = (0, _jquery2.default)(".modal");
         this.closeModalButton = (0, _jquery2.default)(".modal__close");
         this.events();
+        this.contactForm();
     }
 
     _createClass(Modal, [{
@@ -11769,6 +11770,21 @@ var Modal = function () {
         key: "closeModal",
         value: function closeModal() {
             this.modal.removeClass("modal--is-visible");
+        }
+    }, {
+        key: "contactForm",
+        value: function contactForm() {
+            (0, _jquery2.default)("html").on("submit", "#contact_form", function (e) {
+                e.preventDefault();
+                (0, _jquery2.default)("#send_form_status").html('').hide();
+                var data = (0, _jquery2.default)("#contact_form").serialize();
+                _jquery2.default.post("/send_form.php", data, function (res) {
+                    (0, _jquery2.default)("#send_form_status").html(res.msg).show();
+                    if (res.status == 1) {
+                        (0, _jquery2.default)("#contact_form")[0].reset();
+                    }
+                });
+            });
         }
     }]);
 
