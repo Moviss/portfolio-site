@@ -2,11 +2,11 @@
 Instead edit gulp/templates/sprite */
 
 		.icon {
-			background-image: url('../../assets/images/sprites/sprite-deddba3a.svg');
+			background-image: url('../../assets/images/sprites/sprite-36e437f4.svg');
 		}
 	
-	.icon--star {
+	.icon--mail {
 		width: 66px;
-		height: 66px;
+		height: 50px;
 		background-position: 0 0;
 	}

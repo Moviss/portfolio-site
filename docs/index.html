@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <title>Marcin Lubowicz - Portfolio</title>
   <meta name="keywords" content="Portfolio, portfolio programisty, front-end developer, developer, frontend, tworzenie stron, java script, js, praca, programowanie, www, aplikacja, web">
   <meta name="description" content="Programistyczne portfolio front-end developera Marcina Lubowicza">
 
-  <link rel="stylesheet" href="assets/styles/styles-0de26f9625.css"/>
+  <link rel="stylesheet" href="assets/styles/styles-a859e9e9ec.css"/>
 
   <script src="assets/scripts/Vendor-62387867cd.js"></script>
 
@@ -78,7 +79,7 @@
         <div class="row__medium-8 row__medium-8--smaller">
           <div class="generic-content-container">
             <h2 class="headline headline--no-t-margin">Coś o mnie...</h2>
-            <p>Nazywam się Marcin Lubowicz i z wykształcenia jestem... aktorem. Postanowiłem jednak radykalnie zmienić mój profil zawodowy i zostać programistą. A tak naprawdę jest to mój powrót do wielkiej pasji z liceum. Od ponad pół roku regularnie uczę się programowania frontendowego oraz Javy.</p> <p>Oprócz samodzielnej nauki w ukończyłem również następujące kursy: </p>           
+            <p>Nazywam się Marcin Lubowicz i z wykształcenia jestem... aktorem. Postanowiłem jednak radykalnie zmienić mój profil zawodowy i zostać programistą. A tak naprawdę jest to mój powrót do wielkiej pasji z liceum. Od ponad pół roku regularnie uczę się programowania frontendowego oraz Javy.</p> <p>Oprócz samodzielnej nauki ukończyłem również następujące kursy: </p>           
             <ul>
               <li>JavaScript and HTML5: Develop Web Applications - Oracle authorized cource</li>
               <li>The Complete Front-End Web Developing Course - Udemy</li>
@@ -208,20 +209,27 @@
 
   <div class="modal">
     <div class="modal__inner">
-        <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> Skontaktuj się ze mną</h2>
-      <div class="wrapper wrapper--narrow">
-          <h2>Formularz kontaktowy</h2>
-          <div id="send_form_status"></div>
-          <form method="post" action="/send_form.php" id="contact_form">
-               <div><label for="name">Imię i nazwisko</label></div>
-               <div><input type="text" name="name" id="name" class="formField" /></div>
-               <div><label for="email">Adres email</label></div>
-               <div><input type="text" name="email" id="email" class="formField" /></div>
-               <div><label for="message">Treść wiadomości</label></div>
-               <div><textarea name="message" id="message" class="formField"></textarea></div>
-               <div><button id="sendBtn">Wyślij</button></div>
-          </form>
-      </div>
+        <h2 class="modal__title section-title--blue"><img class=" section-title__icon" src="assets/images/icons/mail.svg"></span> Skontaktuj się ze mną</h2>
+
+        <div class="row generic-content-container">
+          <div class="row__medium-6 row__center">
+            <div id="send_form_status"></div>
+            <form method="post" action="/send_form.php" id="contact_form">
+                <div><label for="name">Imię i nazwisko</label></div>
+                <div><input type="text" name="name" id="name" class="formField" /></div>
+                <div><label for="email">Adres email</label></div>
+                <div><input type="text" name="email" id="email" class="formField" /></div>
+                <div><label for="message">Treść wiadomości</label></div>
+                <div><textarea name="message" id="message" class="formField"></textarea></div>
+                <div><button id="sendBtn">Wyślij</button></div>
+            </form>
+          </div>
+
+          <div class="row__medium-6 row__center modal__text">
+            <p>Jeśli chcesz ze mną porozmawiać osobiście <strong>zadzwoń</strong> pod numer <strong>501 619 789</strong>. Możesz też wysłać maila korzystając z formularza kontaktowego. A jak znajdziesz chwilę <strong>odwiedź mnie</strong> rówież na GitHubie i LinkedIn.</p>
+          </div>
+
+        </div>
 
       <div class="social-icons">
           <a href="#"><img class="social-icons__icon" src="assets/images/icons/64Linkedin.png"></a>

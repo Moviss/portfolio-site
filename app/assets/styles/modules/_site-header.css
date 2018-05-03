@@ -33,9 +33,10 @@
 		transition: transform .3s ease-out;
 		transform-origin: 50% 0;
 		background-color: $mainBlue;
-		padding: 0 20px 6px 20px;
+		padding: 0 15px 6px 15px;
 
 		@mixin atMedium {
+			padding: 0 20px 6px 20px;
 			left: auto;
 			transform: translateX(0);
 
@@ -53,12 +54,12 @@
 
 	&__logo-upper {
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: .9rem;
 	}
 
 	&__logo-lower {
 		font-weight: 100;
-		font-size: 1rem;
+		font-size: .7rem;
 	}
 	
 	@mixin atSmall {
@@ -69,6 +70,7 @@
 	
 		&__logo-lower {
 			font-weight: 100;
+			font-size: 1rem;
 		}
 	}
 
