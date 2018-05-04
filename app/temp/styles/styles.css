@@ -977,7 +977,7 @@ a {
 @media (min-width: 530px) {
 
 .feature-item {
-		padding-left: 94px
+		padding-left: 0
 
 
 }
@@ -989,6 +989,13 @@ a {
 	}
 
 @media (min-width: 530px) {
+
+.feature-item__icon {
+			left: 50%
+	}
+  }
+
+@media (min-width: 800px) {
 
 .feature-item__icon {
 			position: absolute;
@@ -1063,7 +1070,7 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-			background-image: url('../../assets/images/sprites/sprite-36e437f4.svg');
+			background-image: url('../../assets/images/sprites/sprite-c67477d6.svg');
 		}
 
 .icon--mail {
