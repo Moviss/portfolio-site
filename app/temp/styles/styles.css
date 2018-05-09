@@ -1322,6 +1322,7 @@ Instead edit gulp/templates/sprite */
 		list-style: none;
 		display: inline-block;
 		padding-right: 7px;
+		padding-bottom: 7px;
 	}
 
 @media (min-width: 800px) {
