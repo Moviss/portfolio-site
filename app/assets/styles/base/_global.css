@@ -13,5 +13,6 @@ img {
 }
 
 a {
-	color: $mainOrange;
+  color: $mainOrange;
+  cursor: pointer;
 }

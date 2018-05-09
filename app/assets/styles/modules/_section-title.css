@@ -27,14 +27,6 @@
 		}
 	}
 
-	&--black {
-		color: $mainBlack;
-	}
-
-	&--white {
-		color: $mainWhite;
-	}
-
 	&--blue {
 		color: $mainBlue;
 	}
