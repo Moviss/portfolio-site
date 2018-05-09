@@ -1003,7 +1003,7 @@ a {
 	}
   }
 
-.testimonial {
+.my-project {
 	background-color: rgba(255, 255, 255, .8);
 	padding: 0 18px 1px 18px;
 	margin-bottom: 98px;
@@ -1012,18 +1012,18 @@ a {
 
 @media (min-width: 1010px) {
 
-.testimonial {
+.my-project {
 		padding: 0 1.8125rem 1px 1.8125rem;
 		margin-bottom: 0
 
 }
   }
 
-.testimonial--last {
+.my-project--last {
 		margin-bottom: 0;
 	}
 
-.testimonial__photo {
+.my-project__photo {
 		border-radius: 80px;
 		overflow: hidden;
 		width: 160px;
@@ -1034,7 +1034,7 @@ a {
 		border: 6px solid rgba(255, 255, 255, .8);
 	}
 
-.testimonial__title {
+.my-project__title {
 		color: #2f5572;
 		text-align: center;
 		font-size: 1.5rem;
@@ -1042,7 +1042,7 @@ a {
 		margin: 0;
 	}
 
-.testimonial__subtitle {
+.my-project__subtitle {
 		color: #d59541;
 		text-align: center;
 		font-weight: 400;
