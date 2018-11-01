@@ -1,9 +1,10 @@
 .feature-item {
 	position: relative;
 	padding-bottom: 2.5rem;
+	margin: 0 auto;
 
 	@mixin atSmall {
-		padding-left: 94px;
+		/*padding-left: 94px;*/
 	}
 
 	&__icon {
@@ -11,8 +12,8 @@
 		margin: 0 auto;
 
 		@mixin atSmall {
-			position: absolute;
-			left: 0;
+			/*position: absolute;*/
+			/*left: 0;*/
 		}
 	}
 
@@ -26,7 +27,7 @@
 		@mixin atSmall {
 			font-size: 1.875rem;
 			margin-top: 1em;
-			text-align: left;
+			text-align: center;
 		}
 	}
 

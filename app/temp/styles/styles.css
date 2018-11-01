@@ -960,6 +960,7 @@ a {
 .feature-item {
 	position: relative;
 	padding-bottom: 2.5rem;
+	margin: 0 auto;
 
 
 }
@@ -967,7 +968,7 @@ a {
 @media (min-width: 530px) {
 
 .feature-item {
-		padding-left: 94px
+		/*padding-left: 94px;*/
 
 
 }
@@ -981,8 +982,8 @@ a {
 @media (min-width: 530px) {
 
 .feature-item__icon {
-			position: absolute;
-			left: 0
+			/*position: absolute;*/
+			/*left: 0;*/
 	}
   }
 
@@ -999,7 +1000,7 @@ a {
 .feature-item__title {
 			font-size: 1.875rem;
 			margin-top: 1em;
-			text-align: left
+			text-align: center
 	}
   }
 
