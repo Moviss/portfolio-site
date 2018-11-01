@@ -2,53 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26990f76-54b7-40bf-a895-b9bb6a2aceef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/about-me-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/about-me-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/about-me-landscape-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/about-me-landscape-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/about-me-landscape.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/about-me-landscape.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/about-me-portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/about-me-portrait.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/about-me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/about-me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hand-shake-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hand-shake-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hand-shake-low-res.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hand-shake-low-res.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hand-shake.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hand-shake.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--large-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--large-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--medium-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--medium-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--medium.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--small-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--small-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--smaller-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--smaller-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/hero--smaller.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/hero--smaller.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Boostrap.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Boostrap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128CSS3.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128CSS3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Git.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Git.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Gulp.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Gulp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128HTML5.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128HTML5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128JQuery.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128JQuery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Java.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128JavaScript.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128JavaScript.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Npm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Npm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128PostCSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128PostCSS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Sass.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Sass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Vue.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Vue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/128Wordpress.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/128Wordpress.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64CSS3.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64CSS3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64GithHub.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64GithHub.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64JavaScript.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64JavaScript.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64Linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64Linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64Npm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64Npm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64PostCSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64PostCSS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64Sass.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64Sass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/64Wordpress.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/64Wordpress.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/icons/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/icons/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/my-project-ol-art-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/my-project-ol-art-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/my-project-ol-art.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/my-project-ol-art.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/my-project-posters-site-hi-dpi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/my-project-posters-site-hi-dpi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/my-project-posters-site.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/my-project-posters-site.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/projects-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/images/projects-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/styles/styles-399bfa63e5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/styles/styles-9df22b7112.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,24 +32,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="3" />
           <entry key="html" value="1" />
           <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="391" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="391" />
+          <entry key="css" value="1" />
+          <entry key="html" value="395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -98,16 +61,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="184">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -126,6 +98,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" />
       </list>
     </option>
   </component>
@@ -164,6 +137,27 @@
               <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +200,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,18 +234,31 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_headline.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="184">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
