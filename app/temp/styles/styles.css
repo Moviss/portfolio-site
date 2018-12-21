@@ -470,6 +470,18 @@ a {
   cursor: pointer;
 }
 
+.orange {
+  color: #d59541;
+}
+
+.blue {
+  color: #2f5572;
+}
+
+.white {
+  color: #fff !important;
+}
+
 .large-hero {
   border-bottom: 10px solid #2f5572;
   position: relative;

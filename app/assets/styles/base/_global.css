@@ -13,6 +13,18 @@ img {
 }
 
 a {
-  color: $mainOrange;
+  color: #d59541;
   cursor: pointer;
+}
+
+.orange {
+  color: #d59541;
+}
+
+.blue {
+  color: $mainBlue;
+}
+
+.white {
+  color: #fff !important;
 }
